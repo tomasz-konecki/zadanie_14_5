@@ -19,9 +19,9 @@ var contacts = [{
 ];
 
 var contactForm = {
-    firstName: 'John',
-    lastName: 'Cleese',
-    email: 'jc@example.com'
+    firstName: 'Jan',
+    lastName: 'Kowalski',
+    email: 'jk@example.com'
 };
 
 var App = React.createClass({
