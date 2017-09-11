@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e8fc;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.app, input {
+    background-color: #d9e6f9;
+}
+.app {
+    border: 1px solid grey;
+    padding: 10px;
+    max-width: 700px;
+}
+.contactForm {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+input {
+    height: 70px;
+    margin-left: 10px;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.input-name, .input-surname {
+    width: 40%;
+}
+.input-email {
+    width: 75%;
+}
+button {
+    font-size: 16px;
+    background-color: #73A7FC;
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    top: 68%;
+    left: 79%;
+    box-shadow: 2px 2px 2px gray;
+}
+ul {
+    padding-left: 0;
+}
+.contact-item {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #a8c6f7;
+    padding: 10px;
+    display: flex;
+}
+p {
+    display: inline-block;
+}
+a {
+    display: block;
+}
+.contact-picture {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details {
+    flex-basis: 60%;
+}
+.contact-icon {
+    flex-basis: 20%;
+    display: flex;
+}
+.contact-image {
+    width: 50px;
+}
+i.fa-info-circle {
+    font-size: 22px;
+    color: gray;
+    margin: auto;
+}
+.contact-name {
+    padding-right: 5px;
+}
+
+@media (max-width: 610px) {
+    button {
+        font-size: 12px;
+    }
+}
