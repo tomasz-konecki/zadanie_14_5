@@ -9,16 +9,19 @@ var ContactForm = React.createClass({
                     className: 'contactForm'
                 },
                 React.createElement('input', {
+                    className: 'input-name',
                     type: 'text',
                     placeholder: 'Imię',
-                    value: this.props.contact.firstName,
+                    value: this.props.contact.firstName
                 }),
                 React.createElement('input', {
+                    className: 'input-surname',
                     type: 'text',
                     placeholder: 'Nazwisko',
                     value: this.props.contact.lastName,
                 }),
                 React.createElement('input', {
+                    className: 'input-email',
                     type: 'email',
                     placeholder: 'Email',
                     value: this.props.contact.email,

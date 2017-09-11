@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+}
+
+.app {
+    border: 1px solid blue;
+    padding: 10px;
+    max-width: 700px;
+}
+.contactForm {
+    width: 100%;
+    height: 150px;
+    border: 1px solid teal;
+    position: relative;
+}
+input {
+    height: 70px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.input-name, .input-surname {
+    width: 40%;
+}
+.input-email {
+    width: 75%;
+}
+button {
+    font-size: 16px;
+    background-color: #73A7FC;
+    width: 20%;
+    height: 33%;
+    position: absolute;
+    top: 60%;
+    left: 78%;
+    box-shadow: 2px 2px 2px gray;
+}
+ul {
+    padding-left: 0;
+}
+.contact-item {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #E8EAF7;
+    padding: 10px;
+}
+
+p {
+    border: 1px solid orange;
+    display: inline-block;
+}
+a {
+    border: 1px solid green;
+    display: block;
+}

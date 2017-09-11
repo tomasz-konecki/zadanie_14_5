@@ -13,15 +13,15 @@ var contacts = [{
     {
         id: 3,
         firstName: 'Zbigniew',
-        lastName: 'Koziol',
+        lastName: 'Kozioł',
         email: 'zbigniew.koziol@example.com',
     }
 ];
 
 var contactForm = {
-    firstName: '',
-    lastName: '',
-    email: ''
+    firstName: 'John',
+    lastName: 'Cleese',
+    email: 'jc@example.com'
 };
 
 var App = React.createClass({
